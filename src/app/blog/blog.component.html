@@ -1,5 +1,5 @@
 <div [ngClass]='visible()' (dblclick)="ondone(blog)">
-<h1>{{blog.title}} <span [style.backgroundColor]="redcolor">double click to finish blog.</span></h1>
+<h1>{{blog.title}} <span [style.color]="redcolor" *ngIf="!blog.isdone">double click to finish blog</span></h1>
   <p>{{blog.content}}</p>
   <p>{{blog.data | date: 'MMM-dd-YYYY'}}</p>
   <button (click)="ondelete(blog)">click</button>

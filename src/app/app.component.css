@@ -24,16 +24,6 @@ div p::first-letter,button {
     margin-left: 2em;
 }
 
-div button{
-    margin: auto;
-    padding: .5em;
-    border-radius: 1em;
-}
-div button:hover{
-    margin: auto;
-    border-radius: 1rem;
-    background-color: rgb(88, 88, 192);
-}
 .first {
     color: brown;
     background-color: black;
