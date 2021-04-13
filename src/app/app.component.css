@@ -1,0 +1,40 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 1em;
+    padding: 1em;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: wrap;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-basis: auto;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+div h1 {
+    font-size: x-large;
+    font-weight: 400;
+    font-style: oblique;
+}
+div p::first-letter,button {
+    margin-left: 2em;
+}
+
+div button{
+    margin: auto;
+    padding: .5em;
+    border-radius: 1em;
+}
+div button:hover{
+    margin: auto;
+    border-radius: 1rem;
+    background-color: rgb(88, 88, 192);
+}
+.first {
+    color: brown;
+    background-color: black;
+}
